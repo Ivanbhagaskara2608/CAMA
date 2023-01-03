@@ -4,6 +4,57 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="450dp"
     android:layout_height="800dp"
+    android:background="@color/PrimaryBlue"
     tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageButton
+            android:id="@+id/logoutImageButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/logout"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginEnd="9dp"
+            android:src="@drawable/linehome"/>
+
+        <ImageButton
+            android:id="@+id/accountImageButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/account"/>
+
+    </LinearLayout>
+
+    <SearchView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="104dp"
+        android:queryHint="Cari Data Mahasiswa"
+        android:background="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/loginView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/loginView2"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:src="@drawable/loginview2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

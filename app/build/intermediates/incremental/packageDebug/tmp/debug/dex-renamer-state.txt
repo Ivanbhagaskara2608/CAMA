@@ -1,4 +1,4 @@
-#Mon Jan 02 21:36:34 ICT 2023
+#Tue Jan 03 15:00:28 ICT 2023
 base.2=D\:\\Ivn\\Android Studio\\CAMA\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
 path.2=11/classes.dex
 base.1=D\:\\Ivn\\Android Studio\\CAMA\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

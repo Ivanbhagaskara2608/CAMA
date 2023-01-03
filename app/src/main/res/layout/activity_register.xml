@@ -17,6 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"/>
 
     <LinearLayout
+        android:id="@+id/layoutRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
@@ -110,6 +111,23 @@
 
         </LinearLayout>
 
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="daftar"
+            android:backgroundTint="@color/SecondaryBlue"/>
+
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/loginView2"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:src="@drawable/loginview2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2544,8 +2544,10 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable account
 drawable avd_hide_password
 drawable avd_show_password
+drawable back
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2554,6 +2556,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable cama
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -2570,7 +2573,10 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable linehome
 drawable loginview1
+drawable loginview2
+drawable logout
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2654,6 +2660,7 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id SplashScreenImageView
 id TOP_END
 id TOP_START
 id accelerate
@@ -2690,6 +2697,8 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id accountImageButton
+id accountImageView
 id actionDown
 id actionDownUp
 id actionUp
@@ -2729,6 +2738,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id backImageButton
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2873,6 +2883,8 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id layout
+id layoutLogin
+id layoutRegister
 id left
 id leftToRight
 id legacy
@@ -2881,8 +2893,11 @@ id line3
 id linear
 id listMode
 id list_item
+id loginButton
 id loginTextView
 id loginView1
+id loginView2
+id logoutImageButton
 id marquee
 id masked
 id match_constraint
@@ -2984,6 +2999,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id registerButton
 id reverseSawtooth
 id right
 id rightToLeft
