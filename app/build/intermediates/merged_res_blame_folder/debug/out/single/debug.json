@@ -40,10 +40,6 @@
         "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.carimahasiswa.app-merged_res-29:/layout_activity_account.xml.flat",
-        "source": "com.example.carimahasiswa.app-main-31:/layout/activity_account.xml"
-    },
-    {
         "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
@@ -68,6 +64,10 @@
         "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\xml\\data_extraction_rules.xml"
     },
     {
+        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\drawable_search.png.flat",
+        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\drawable\\search.png"
+    },
+    {
         "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-mdpi\\ic_launcher.webp"
     },
@@ -78,6 +78,10 @@
     {
         "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\layout_activity_register.xml.flat",
         "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "com.example.carimahasiswa.app-merged_res-29:/layout_activity_home.xml.flat",
+        "source": "com.example.carimahasiswa.app-main-31:/layout/activity_home.xml"
     },
     {
         "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\layout_activity_account.xml.flat",

@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
+import android.widget.TextView
+import androidx.appcompat.widget.SearchView
 
 class HomeActivity : AppCompatActivity() {
 
@@ -16,6 +18,7 @@ class HomeActivity : AppCompatActivity() {
 
         logoutImageButton = findViewById(R.id.logoutImageButton)
         accountImageButton = findViewById(R.id.accountImageButton)
+
 
         logoutImageButton.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)

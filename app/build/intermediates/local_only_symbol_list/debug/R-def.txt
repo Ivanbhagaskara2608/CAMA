@@ -18,6 +18,7 @@ drawable linehome
 drawable loginview1
 drawable loginview2
 drawable logout
+drawable search
 id SplashScreenImageView
 id accountImageButton
 id accountImageView

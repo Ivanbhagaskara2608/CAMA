@@ -38,15 +38,56 @@
 
     </LinearLayout>
 
-    <SearchView
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="104dp"
-        android:queryHint="Cari Data Mahasiswa"
-        android:background="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/loginView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+<!--    <androidx.appcompat.widget.SearchView-->
+<!--        style="@style/Widget.AppCompat.SearchView.ActionBar"-->
+<!--        android:id="@+id/cariMahasiswaSearchView"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginBottom="104dp"-->
+<!--        android:background="@color/white"-->
+<!--        android:queryHint="Cari Data Mahasiswa"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/loginView2"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+    
+<!--    <LinearLayout-->
+<!--        android:id="@+id/cariMahasiswaSearchView"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginBottom="104dp"-->
+<!--        android:background="@color/white"-->
+<!--        android:orientation="horizontal"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/loginView2"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" >-->
+<!--        -->
+<!--&lt;!&ndash;        <EditText&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="260dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="50dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:hint="Cari Data Mahasiswa"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:background="@color/white"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <ImageButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="30dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="30dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:background="@drawable/search"/>&ndash;&gt;-->
+<!--        -->
+<!--    </LinearLayout>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tesTV"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="48dp"-->
+<!--        android:text="TES"-->
+<!--        android:textSize="20sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.501"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/cariMahasiswaSearchView" />-->
 
     <ImageView
         android:id="@+id/loginView2"
