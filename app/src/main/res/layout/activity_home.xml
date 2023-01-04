@@ -71,8 +71,11 @@
         app:layout_constraintTop_toBottomOf="@+id/cariButton">
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mahasiswaRecyclerView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            tools:listitem="@layout/card_view_mahasiswa"
+            tools:itemCount="10"
             />
 
     </LinearLayout>

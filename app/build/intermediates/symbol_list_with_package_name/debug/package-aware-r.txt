@@ -1236,6 +1236,7 @@ bool abc_config_actionMenuItemAllCaps
 bool mtrl_btn_textappearance_all_caps
 color PrimaryBlue
 color SecondaryBlue
+color SecondaryVariantBlue
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
 color abc_btn_colored_borderless_text_material
@@ -2573,6 +2574,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable linecama
 drawable linehome
 drawable loginview1
 drawable loginview2
@@ -2645,6 +2647,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable rectangle25
 drawable search
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2755,6 +2758,8 @@ id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
+id cariButton
+id cariEditText
 id carryVelocity
 id center
 id centerCrop
@@ -2791,6 +2796,7 @@ id custom
 id customPanel
 id cut
 id daftarTextView
+id dataMahasiswaTextView
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -2898,7 +2904,9 @@ id loginButton
 id loginTextView
 id loginView1
 id loginView2
+id logoCama
 id logoutImageButton
+id mahasiswaRecyclerView
 id marquee
 id masked
 id match_constraint
@@ -3265,6 +3273,7 @@ layout activity_home
 layout activity_login
 layout activity_main
 layout activity_register
+layout card_view_mahasiswa
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

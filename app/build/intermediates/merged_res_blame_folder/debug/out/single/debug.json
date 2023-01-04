@@ -1,122 +1,134 @@
 [
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\drawable_account.png.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\drawable\\account.png"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\drawable_cama.png.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\drawable\\cama.png"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\drawable_loginview2.png.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\drawable\\loginview2.png"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\drawable_linecama.png.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\drawable\\linecama.png"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\layout_activity_account.xml.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\layout\\activity_account.xml"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\drawable_cama.png.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\drawable\\cama.png"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\drawable_linehome.png.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\drawable\\linehome.png"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\layout\\activity_home.xml"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.carimahasiswa.app-merged_res-29:/layout_card_view_mahasiswa.xml.flat",
+        "source": "com.example.carimahasiswa.app-main-31:/layout/card_view_mahasiswa.xml"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\drawable_loginview2.png.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\drawable\\loginview2.png"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\drawable_linehome.png.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\drawable\\linehome.png"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\layout_card_view_mahasiswa.xml.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\layout\\card_view_mahasiswa.xml"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\drawable_search.png.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\drawable\\search.png"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\drawable_loginview1.png.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\drawable\\loginview1.png"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\drawable_search.png.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\drawable\\search.png"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\drawable_logout.png.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\drawable\\logout.png"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\drawable_account.png.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\drawable\\account.png"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-pngs-24:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\layout\\activity_register.xml"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\layout\\activity_register.xml"
     },
     {
-        "merged": "com.example.carimahasiswa.app-merged_res-29:/layout_activity_home.xml.flat",
-        "source": "com.example.carimahasiswa.app-main-31:/layout/activity_home.xml"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-pngs-24:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\layout_activity_account.xml.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\layout\\activity_account.xml"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\drawable_back.png.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\drawable\\back.png"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\drawable_back.png.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\drawable\\back.png"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\drawable_loginview1.png.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\drawable\\loginview1.png"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\drawable_rectangle25.xml.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\drawable\\rectangle25.xml"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\drawable_logout.png.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\drawable\\logout.png"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\IVAN\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-merged_res-29:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\Saka\\.gradle\\daemon\\7.4\\com.example.carimahasiswa.app-main-31:\\layout\\activity_home.xml"
     }
 ]

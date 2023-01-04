@@ -38,64 +38,46 @@
 
     </LinearLayout>
 
-<!--    <androidx.appcompat.widget.SearchView-->
-<!--        style="@style/Widget.AppCompat.SearchView.ActionBar"-->
-<!--        android:id="@+id/cariMahasiswaSearchView"-->
-<!--        android:layout_width="300dp"-->
-<!--        android:layout_height="50dp"-->
-<!--        android:layout_marginBottom="104dp"-->
-<!--        android:background="@color/white"-->
-<!--        android:queryHint="Cari Data Mahasiswa"-->
-<!--        app:layout_constraintBottom_toTopOf="@+id/loginView2"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
-    
-<!--    <LinearLayout-->
-<!--        android:id="@+id/cariMahasiswaSearchView"-->
-<!--        android:layout_width="300dp"-->
-<!--        android:layout_height="50dp"-->
-<!--        android:layout_marginBottom="104dp"-->
-<!--        android:background="@color/white"-->
-<!--        android:orientation="horizontal"-->
-<!--        app:layout_constraintBottom_toTopOf="@+id/loginView2"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" >-->
-<!--        -->
-<!--&lt;!&ndash;        <EditText&ndash;&gt;-->
-<!--&lt;!&ndash;            android:layout_width="260dp"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:layout_height="50dp"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:hint="Cari Data Mahasiswa"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:background="@color/white"/>&ndash;&gt;-->
-
-<!--&lt;!&ndash;        <ImageButton&ndash;&gt;-->
-<!--&lt;!&ndash;            android:layout_width="30dp"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:layout_height="30dp"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:layout_marginTop="10dp"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:background="@drawable/search"/>&ndash;&gt;-->
-<!--        -->
-<!--    </LinearLayout>-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/tesTV"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="48dp"-->
-<!--        android:text="TES"-->
-<!--        android:textSize="20sp"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.501"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/cariMahasiswaSearchView" />-->
-
-    <ImageView
-        android:id="@+id/loginView2"
-        android:layout_width="match_parent"
-        android:layout_height="98dp"
-        android:src="@drawable/loginview2"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <EditText
+        android:id="@+id/cariEditText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="72dp"
+        android:background="@color/white"
+        android:hint="Cari Data Mahasiswa"
+        android:paddingStart="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cariButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/SecondaryBlue"
+        android:text="cari"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cariEditText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/rectangle25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cariButton">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mahasiswaRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/card_view_mahasiswa"
+            tools:itemCount="10"
+            />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

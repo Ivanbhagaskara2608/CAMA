@@ -16,6 +16,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
 
+    <ImageView
+        android:id="@+id/logoCama"
+        android:layout_width="231dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="614dp"
+        android:src="@drawable/cama"
+        app:layout_constraintBottom_toBottomOf="@+id/loginView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/loginView1" />
+
     <LinearLayout
         android:id="@+id/layoutRegister"
         android:layout_width="match_parent"
@@ -68,11 +80,13 @@
             app:boxBackgroundColor="@color/white"
             app:boxStrokeColor="@color/SecondaryBlue"
             app:hintTextColor="@color/SecondaryBlue"
+            app:passwordToggleEnabled="true"
             android:hint="Password">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="textPassword"
                 android:textSize="14sp"/>
 
         </com.google.android.material.textfield.TextInputLayout>
