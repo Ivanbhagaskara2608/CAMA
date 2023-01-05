@@ -72,7 +72,7 @@ class RegisterActivity : AppCompatActivity() {
                 e.printStackTrace()
             }
 
-            AndroidNetworking.post("http://127.0.0.1:8000/api/register")
+            AndroidNetworking.post("http://192.168.0.110:8000/api/register")
                 .addJSONObjectBody(jobj)
                 .addHeaders("Content-Type", "application/json")
                 .setPriority(Priority.MEDIUM)
@@ -81,8 +81,8 @@ class RegisterActivity : AppCompatActivity() {
                     override fun onResponse(response: JSONObject?) {
                         try {
                             if (response != null) {
-                                if(response.getString("message").equals("Login Succeeded")) {
-                                    Toast.makeText(this@RegisterActivity, "Login Berhasil", Toast.LENGTH_LONG).show()
+                                if(response.getString("message").equals("Registration succeeded")) {
+                                    Toast.makeText(this@RegisterActivity, "Register Berhasil", Toast.LENGTH_LONG).show()
 
                                     val intent = Intent(this@RegisterActivity, LoginActivity::class.java)
                                     startActivity(intent)

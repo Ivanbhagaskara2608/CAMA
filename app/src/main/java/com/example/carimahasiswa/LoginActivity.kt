@@ -64,9 +64,9 @@ class LoginActivity : AppCompatActivity() {
                 e.printStackTrace()
             }
 
-            AndroidNetworking.post("http://127.0.0.1:8000/api/login")
+            AndroidNetworking.post("http://192.168.0.110:8000/api/login")
                 .addJSONObjectBody(jobj)
-                .addHeaders("Content-Type", "application/json")
+                .addHeaders("Accept", "application/json")
                 .setPriority(Priority.MEDIUM)
                 .build()
                 .getAsJSONObject(object: JSONObjectRequestListener {

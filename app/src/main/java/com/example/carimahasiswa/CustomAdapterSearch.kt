@@ -21,7 +21,7 @@ class CustomAdapterSearch(private val list: ArrayList<ItemsViewModelSearch>) : R
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val itemsViewModel = list[position]
 
-        holder.dataMahasiswaTextView.text = itemsViewModel.getCama
+        holder.dataMahasiswaTextView.text = itemsViewModel.text
     }
 
     override fun getItemCount(): Int {
