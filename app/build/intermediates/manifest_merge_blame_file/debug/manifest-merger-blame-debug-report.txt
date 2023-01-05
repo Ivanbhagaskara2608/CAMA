@@ -6,130 +6,148 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="32" />
-9-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml
+8-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:5:5-56:19
-12        android:allowBackup="true"
-12-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.8.0] C:\Users\Saka\.gradle\caches\transforms-3\205feb206244c8c1b4b56fcdc8d69988\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
-14        android:dataExtractionRules="@xml/data_extraction_rules"
-14-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:7:9-65
-15        android:debuggable="true"
-16        android:fullBackupContent="@xml/backup_rules"
-16-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:8:9-54
-17        android:icon="@mipmap/ic_launcher"
-17-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:9:9-43
-18        android:label="@string/app_name"
-18-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:10:9-41
-19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:11:9-54
-20        android:supportsRtl="true"
-20-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:12:9-35
-21        android:testOnly="true"
-22        android:theme="@style/Theme.CariMahasiswa" >
-22-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:13:9-51
-23        <activity
-23-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:15:9-21:20
-24            android:name="com.example.carimahasiswa.AccountActivity"
-24-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:16:13-44
-25            android:exported="false" >
-25-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:17:13-37
-26            <meta-data
-26-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:18:13-20:36
-27                android:name="android.app.lib_name"
-27-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:19:17-52
-28                android:value="" />
-28-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:20:17-33
-29        </activity>
-30        <activity
-30-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:22:9-28:20
-31            android:name="com.example.carimahasiswa.HomeActivity"
-31-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:23:13-41
-32            android:exported="false" >
-32-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:24:13-37
-33            <meta-data
-33-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:18:13-20:36
-34                android:name="android.app.lib_name"
-34-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:19:17-52
-35                android:value="" />
-35-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:20:17-33
-36        </activity>
-37        <activity
-37-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:29:9-35:20
-38            android:name="com.example.carimahasiswa.RegisterActivity"
-38-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:30:13-45
-39            android:exported="false" >
-39-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:31:13-37
-40            <meta-data
-40-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:18:13-20:36
-41                android:name="android.app.lib_name"
-41-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:19:17-52
-42                android:value="" />
-42-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:20:17-33
-43        </activity>
-44        <activity
-44-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:36:9-42:20
-45            android:name="com.example.carimahasiswa.LoginActivity"
-45-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:37:13-42
-46            android:exported="false" >
-46-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:38:13-37
-47            <meta-data
-47-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:18:13-20:36
-48                android:name="android.app.lib_name"
-48-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:19:17-52
-49                android:value="" />
-49-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:20:17-33
-50        </activity>
-51        <activity
-51-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:43:9-55:20
-52            android:name="com.example.carimahasiswa.MainActivity"
-52-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:44:13-41
-53            android:exported="true" >
-53-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:45:13-36
-54            <intent-filter>
-54-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:46:13-50:29
-55                <action android:name="android.intent.action.MAIN" />
-55-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:47:17-69
-55-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:47:25-66
-56
-57                <category android:name="android.intent.category.LAUNCHER" />
-57-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:49:17-77
-57-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:49:27-74
-58            </intent-filter>
-59
-60            <meta-data
-60-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:18:13-20:36
-61                android:name="android.app.lib_name"
-61-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:19:17-52
-62                android:value="" />
-62-->D:\Saka\UTY SEM 3\Mobile & Web Service\CAMA\app\src\main\AndroidManifest.xml:20:17-33
-63        </activity>
-64
-65        <provider
-65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Saka\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-66            android:name="androidx.startup.InitializationProvider"
-66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Saka\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-67            android:authorities="com.example.carimahasiswa.androidx-startup"
-67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Saka\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-68            android:exported="false" >
-68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Saka\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:5:5-79
+11-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:6:5-67
+12-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] C:\Users\IVAN\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.carimahasiswa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] C:\Users\IVAN\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] C:\Users\IVAN\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.carimahasiswa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] C:\Users\IVAN\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\IVAN\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:8:5-59:19
+21        android:allowBackup="true"
+21-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:9:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] C:\Users\IVAN\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:10:9-65
+24        android:debuggable="true"
+25        android:fullBackupContent="@xml/backup_rules"
+25-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:11:9-54
+26        android:icon="@mipmap/ic_launcher"
+26-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:12:9-43
+27        android:label="@string/app_name"
+27-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:13:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:14:9-54
+29        android:supportsRtl="true"
+29-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:15:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.CariMahasiswa" >
+31-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:16:9-51
+32        <activity
+32-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:18:9-24:20
+33            android:name="com.example.carimahasiswa.AccountActivity"
+33-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:19:13-44
+34            android:exported="false" >
+34-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:20:13-37
+35            <meta-data
+35-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:21:13-23:36
+36                android:name="android.app.lib_name"
+36-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:22:17-52
+37                android:value="" />
+37-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:23:17-33
+38        </activity>
+39        <activity
+39-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:25:9-31:20
+40            android:name="com.example.carimahasiswa.HomeActivity"
+40-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:26:13-41
+41            android:exported="false" >
+41-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:27:13-37
+42            <meta-data
+42-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:21:13-23:36
+43                android:name="android.app.lib_name"
+43-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:22:17-52
+44                android:value="" />
+44-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:23:17-33
+45        </activity>
+46        <activity
+46-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:32:9-38:20
+47            android:name="com.example.carimahasiswa.RegisterActivity"
+47-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:33:13-45
+48            android:exported="false" >
+48-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:34:13-37
+49            <meta-data
+49-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:21:13-23:36
+50                android:name="android.app.lib_name"
+50-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:22:17-52
+51                android:value="" />
+51-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:23:17-33
+52        </activity>
+53        <activity
+53-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:39:9-45:20
+54            android:name="com.example.carimahasiswa.LoginActivity"
+54-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:40:13-42
+55            android:exported="false" >
+55-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:41:13-37
+56            <meta-data
+56-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:21:13-23:36
+57                android:name="android.app.lib_name"
+57-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:22:17-52
+58                android:value="" />
+58-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:23:17-33
+59        </activity>
+60        <activity
+60-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:46:9-58:20
+61            android:name="com.example.carimahasiswa.MainActivity"
+61-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:47:13-41
+62            android:exported="true" >
+62-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:48:13-36
+63            <intent-filter>
+63-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:49:13-53:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:50:17-69
+64-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:50:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:52:17-77
+66-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:52:27-74
+67            </intent-filter>
+68
 69            <meta-data
-69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Saka\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-70                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Saka\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-71                android:value="androidx.startup" />
-71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Saka\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-72            <meta-data
-72-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Saka\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-73                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-73-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Saka\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-74                android:value="androidx.startup" />
-74-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Saka\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-75        </provider>
-76    </application>
-77
-78</manifest>
+69-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:21:13-23:36
+70                android:name="android.app.lib_name"
+70-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:22:17-52
+71                android:value="" />
+71-->D:\Ivn\Android Studio\CAMA\app\src\main\AndroidManifest.xml:23:17-33
+72        </activity>
+73
+74        <provider
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\IVAN\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+75            android:name="androidx.startup.InitializationProvider"
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\IVAN\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+76            android:authorities="com.example.carimahasiswa.androidx-startup"
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\IVAN\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+77            android:exported="false" >
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\IVAN\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+78            <meta-data
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\IVAN\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\IVAN\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+80                android:value="androidx.startup" />
+80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\IVAN\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+81            <meta-data
+81-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\IVAN\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+82                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+82-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\IVAN\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+83                android:value="androidx.startup" />
+83-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\IVAN\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+84        </provider>
+85    </application>
+86
+87</manifest>

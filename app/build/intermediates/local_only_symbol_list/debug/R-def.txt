@@ -30,6 +30,8 @@ id cariButton
 id cariEditText
 id daftarTextView
 id dataMahasiswaTextView
+id fullnameInputEditText
+id fullnameInputLayout
 id layoutLogin
 id layoutRegister
 id loginButton
@@ -39,7 +41,15 @@ id loginView2
 id logoCama
 id logoutImageButton
 id mahasiswaRecyclerView
+id passwordInputEditText
+id passwordInputEditTextLogin
+id passwordInputLayout
+id passwordInputLayoutLogin
 id registerButton
+id usernameInputEditText
+id usernameInputEditTextLogin
+id usernameInputLayout
+id usernameInputLayoutLogin
 layout activity_account
 layout activity_home
 layout activity_login

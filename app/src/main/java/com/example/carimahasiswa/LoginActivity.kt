@@ -3,10 +3,18 @@ package com.example.carimahasiswa
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
+import com.androidnetworking.AndroidNetworking
+import com.androidnetworking.common.Priority
+import com.androidnetworking.error.ANError
+import com.androidnetworking.interfaces.JSONObjectRequestListener
 import com.google.android.material.textfield.TextInputLayout
+import org.json.JSONException
+import org.json.JSONObject
 
 class LoginActivity : AppCompatActivity() {
 
@@ -20,6 +28,7 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+        AndroidNetworking.initialize(applicationContext)
 
         daftarTextView = findViewById(R.id.daftarTextView)
         loginButton = findViewById(R.id.loginButton)
@@ -34,8 +43,52 @@ class LoginActivity : AppCompatActivity() {
         }
 
         loginButton.setOnClickListener {
-            val intent = Intent(this, HomeActivity::class.java)
-            startActivity(intent)
+            login()
+        }
+    }
+
+    private fun login() {
+        val username = usernameInputEditTextLogin.text.toString().trim()
+        val password = passwordInputEditTextLogin.text.toString().trim()
+
+        if (usernameInputEditTextLogin.text.isEmpty()) {
+            usernameInputLayoutLogin.error = "Username is required"
+        } else if (passwordInputEditTextLogin.text.isEmpty()) {
+            passwordInputLayoutLogin.error = "Password is required"
+        } else {
+            val jobj = JSONObject()
+            try {
+                jobj.put("username", username)
+                jobj.put("password", password)
+            } catch (e: JSONException) {
+                e.printStackTrace()
+            }
+
+            AndroidNetworking.post("http://127.0.0.1:8000/api/login")
+                .addJSONObjectBody(jobj)
+                .addHeaders("Content-Type", "application/json")
+                .setPriority(Priority.MEDIUM)
+                .build()
+                .getAsJSONObject(object: JSONObjectRequestListener {
+                    override fun onResponse(response: JSONObject?) {
+                        try {
+                            if (response != null) {
+                                if(response.getString("message").equals("Login Succeeded")) {
+                                    Toast.makeText(this@LoginActivity, "Login Berhasil", Toast.LENGTH_LONG).show()
+
+                                    val intent = Intent(this@LoginActivity, HomeActivity::class.java)
+                                    startActivity(intent)
+                                }
+                            }
+                        } catch (e: JSONException) {
+                            Log.d("error", e.toString())
+                        }
+                    }
+
+                    override fun onError(anError: ANError?) {
+                        Log.d("error", anError.toString())
+                    }
+                })
         }
     }
 }
