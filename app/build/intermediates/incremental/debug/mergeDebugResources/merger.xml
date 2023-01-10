@@ -10711,6 +10711,7 @@
         
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         
+
     </style></file><file path="D:\Ivn\Android Studio\CAMA\app\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Theme.CariMahasiswa" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/purple_200</item>

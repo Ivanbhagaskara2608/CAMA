@@ -43,8 +43,7 @@
             android:layout_height="wrap_content"
             app:boxBackgroundColor="@color/white"
             app:boxStrokeColor="@color/SecondaryBlue"
-            app:hintTextColor="@color/SecondaryBlue"
-            android:hint="Nama Lengkap">
+            app:hintTextColor="@color/SecondaryBlue">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -53,6 +52,7 @@
                 android:clickable="false"
                 android:cursorVisible="false"
                 android:focusableInTouchMode="false"
+                android:text="Nama Lengkap"
                 android:textSize="14sp"/>
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -64,8 +64,7 @@
             android:layout_marginTop="20dp"
             app:boxBackgroundColor="@color/white"
             app:boxStrokeColor="@color/SecondaryBlue"
-            app:hintTextColor="@color/SecondaryBlue"
-            android:hint="Username">
+            app:hintTextColor="@color/SecondaryBlue">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -74,6 +73,7 @@
                 android:clickable="false"
                 android:cursorVisible="false"
                 android:focusableInTouchMode="false"
+                android:text="Username"
                 android:textSize="14sp"/>
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -85,8 +85,7 @@
             android:layout_marginTop="20dp"
             app:boxBackgroundColor="@color/white"
             app:boxStrokeColor="@color/SecondaryBlue"
-            app:hintTextColor="@color/SecondaryBlue"
-            android:hint="Password">
+            app:hintTextColor="@color/SecondaryBlue">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -95,6 +94,7 @@
                 android:clickable="false"
                 android:cursorVisible="false"
                 android:focusableInTouchMode="false"
+                android:text="Password"
                 android:textSize="14sp"/>
 
         </com.google.android.material.textfield.TextInputLayout>

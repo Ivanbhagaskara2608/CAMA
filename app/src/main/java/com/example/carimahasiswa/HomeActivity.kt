@@ -56,14 +56,7 @@ class HomeActivity : AppCompatActivity() {
             initAdapter()
         }
 
-//        mahasiswaRecyclerView.layoutManager = LinearLayoutManager(this)
-//        val data = ArrayList<ItemsViewModelSearch>()
-//        for(i in 1..10) {
-//            data.add(ItemsViewModelSearch())
-//        }
-//
-//        val adapter = CustomAdapterSearch(data)
-//        mahasiswaRecyclerView.adapter = adapter
+
     }
 
     private fun getData() {
@@ -74,6 +67,7 @@ class HomeActivity : AppCompatActivity() {
             .getAsJSONObject(object: JSONObjectRequestListener{
                 override fun onResponse(response: JSONObject?) {
                     val data = JSONArray(response!!.getString("mahasiswa"))
+                    list.clear()
                     try {
                         for (i in 0 until data.length()) {
                             val value = data.getJSONObject(i)
@@ -96,7 +90,6 @@ class HomeActivity : AppCompatActivity() {
 
     private fun initAdapter(){
         customAdapterSearch = CustomAdapterSearch(list)
-        val layoutManager = LinearLayoutManager(this)
         mahasiswaRecyclerView.layoutManager = LinearLayoutManager(this)
     }
 }
